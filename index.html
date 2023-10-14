@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Lalyos Academy</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+
+<script src="https://kit.fontawesome.com/59befe46b6.js" crossorigin="anonymous"></script>
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-person-chalkboard,.fa-envelope,.fa-user,.fa-handshake-o {font-size:200px}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-teal w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-teal" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="#training" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Training</a>
+    <a href="#consultation" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Consultation</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contanct</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Training</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Consultation</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">About</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Contact</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-teal w3-center" style="padding:128px 16px">
+  <h1 class="w3-margin w3-jumbo">Lalyos Academy</h1>
+  <p class="w3-xlarge">Learn from me</p>
+  <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Get Started</button>
+</header>
+
+<!-- Training -->
+<div id="training" class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      <i class="fa fa-person-chalkboard w3-padding-64 w3-text-teal w3-margin-right"></i>
+    </div>
+
+    <div class="w3-twothird">
+      <h1>Training</h1>
+      <h5 class="w3-padding-32">I teach Docker, Kubernetes and everything around DevOps and Cloud.</h5>
+
+    </div>
+  </div>
+</div>
+
+<!-- Consultation -->
+<div id="consultation" class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>Consultation</h1>
+      <h5 class="w3-padding-32">Do you need help in your Cloud Native Journey? I can help to create a trategy and train you team.</h5>
+
+    </div>
+
+    <div class="w3-third w3-center">
+      <i class="fa fa-handshake-o w3-padding-64 w3-text-teal"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- About -->
+<div id="about" class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+
+    <div class="w3-third w3-center">
+      <i class="fa fa-user w3-padding-64 w3-text-teal w3-margin-right"></i>
+    </div>
+
+
+    <div class="w3-twothird">
+      <h1>About</h1>
+      <h5 class="w3-padding-32">I'm a passionate teacher. I started as a Java Developer and for 15 years worked for top 500 companies. Than co-founded SequenceIQ a startup made Hadoop able to run on the cloud in containers. After a successful Hortonworks aquisition, I helped at the start of BanzaiCloud. Finally I've dedicated my focus on teaching and consultation. I'm active in the OpenSource community and founded the Docker Budapest Meetup</h5>
+
+    </div>
+  </div>
+</div>
+
+
+<!-- Contact -->
+<div id="contact" class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>Contact</h1>
+      <h5 class="w3-padding-32">
+       info at lalyos.academy
+      </h5>
+
+    </div>
+    <div class="w3-third w3-center">
+      <i class="fa fa-solid fa-envelope w3-padding-64 w3-text-teal"></i>
+    </div>
+  </div>
+</div>
+
+
+<!--
+<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+    <h1 class="w3-margin w3-xlarge">Quote of the day: live life</h1>
+</div>
+-->
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+  <div class="w3-xlarge w3-padding-32">
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+ </div>
+ <p>Kopiralyt 2023.</p>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
